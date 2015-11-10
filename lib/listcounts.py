@@ -22,10 +22,14 @@ sum([1,2,3])
 
 
 def max(listofnumbers):
-    return max(listofnumbers)
+    sort= sorted(listofnumbers)
+    längd = len(listofnumbers)
+    return (sort[längd])
 
 def min(listofnumbers):
-    return min(listofnumbers)
+    sort = sorted(listofnumbers)
+    return(sort[0])
+
 
 def median(listofnumbers):
     sort = sorted(listofnumbers)
